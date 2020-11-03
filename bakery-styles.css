@@ -1,0 +1,103 @@
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  background-color: white;
+  margin: 0;
+}
+
+a:link, a:visited { 
+  color: #DC6903; 
+}
+a:focus, a:hover, a:active { 
+  color: #F9AB33; 
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  padding-bottom: .2em;
+}
+
+
+div.header {
+  color: white;
+  background:  url(images/croissants_banner.jpg) no-repeat center center;
+  background-size: cover; 
+  text-align: center;
+  height: 15em;
+}
+
+div.box-border-curved {
+  margin: 100px;
+  border: 7px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgba(190, 206, 109, 0.3);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 50px;
+  padding-top: 10px;
+}
+h3.border-title {
+  border-left: 6px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-top: 3px;
+  border-style: solid;
+  color: #7A0002;
+}
+
+h3.margin-title {
+  padding-left: 15px;
+  margin-top: 60px;
+}
+
+p.header {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-top: 2em;
+}
+
+div.main {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
+  line-height: 1.8em;
+  color: #555;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+p.more {
+  font-family: verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: .8em;
+  margin-top: 100px;
+}
+
+div.footer {
+  color: white;
+  text-align: center;
+  font-size: .8em;
+  padding: 1em;
+  background-color: #783F27;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p.description {
+  padding-left: 20px;
+  text-align: left;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 2.2em;
+}
+
+img.product {
+  float: left;
+  margin-right: 20px;
+  
+}
